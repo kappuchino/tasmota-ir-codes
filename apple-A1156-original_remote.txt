@@ -1,0 +1,18 @@
+# Apple IR Remote A1156 (looks like a chewing gum package)
+
+IRsend {"Protocol":"NEC_LIKE","Bits":32,"DataLSB":"0xEE87038C","Repeat":0} # Menu
+IRsend {"Protocol":"NEC_LIKE","Bits":32,"DataLSB":"0xEE87038C","Repeat":0} # Play/Pause
+IRsend {"Protocol":"NEC_LIKE","Bits":32,"DataLSB":"0xEE87038C","Repeat":0} # Up
+IRsend {"Protocol":"NEC_LIKE","Bits":32,"DataLSB":"0xEE87038C","Repeat":0} # Down
+IRsend {"Protocol":"NEC_LIKE","Bits":32,"DataLSB":"0xEE87038C","Repeat":0} # Left
+IRsend {"Protocol":"NEC_LIKE","Bits":32,"DataLSB":"0xEE87038C","Repeat":0} # Right
+
+# Recieved IR Codes Verbatim Copy
+MQT: tele/tasmota_C12C0A/RESULT = {"IrReceived":{"Protocol":"NEC_LIKE","Bits":32,"Data":"0x77E1C031","DataLSB":"0xEE87038C","Repeat":0}}
+MQT: tele/tasmota_C12C0A/RESULT = {"IrReceived":{"Protocol":"NEC_LIKE","Bits":32,"Data":"0x77E1A031","DataLSB":"0xEE87058C","Repeat":0}}
+MQT: tele/tasmota_C12C0A/RESULT = {"IrReceived":{"Protocol":"NEC_LIKE","Bits":32,"Data":"0x77E15031","DataLSB":"0xEE870A8C","Repeat":0}}
+MQT: tele/tasmota_C12C0A/RESULT = {"IrReceived":{"Protocol":"NEC_LIKE","Bits":32,"Data":"0x77E13031","DataLSB":"0xEE870C8C","Repeat":0}}
+MQT: tele/tasmota_C12C0A/RESULT = {"IrReceived":{"Protocol":"NEC_LIKE","Bits":32,"Data":"0x77E19031","DataLSB":"0xEE87098C","Repeat":0}}
+MQT: tele/tasmota_C12C0A/RESULT = {"IrReceived":{"Protocol":"NEC_LIKE","Bits":32,"Data":"0x77E16031","DataLSB":"0xEE87068C","Repeat":0}}
+
+# Footnote: There are no codes for up AND right aka. 'diagonal'
