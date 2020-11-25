@@ -1,0 +1,50 @@
+# Service Remote for Samsung TV Series (Note: * Service Codes do Not work on Q43Q60T, but should work on older gen. Samsung TVs)
+
+IRsend {"Protocol":"SAMSUNG","Bits":32,"DataLSB":"0x070702FD","Repeat":0} # On/Off TOGGLE
+IRsend {"Protocol":"SAMSUNG","Bits":32,"DataLSB":"0x070701FE","Repeat":0} # Source
+IRsend {"Protocol":"SAMSUNG","Bits":32,"DataLSB":"0x07071AE5","Repeat":0} # Menu
+IRsend {"Protocol":"SAMSUNG","Bits":32,"DataLSB":"0x07074BB4","Repeat":0} # Tools *
+IRsend {"Protocol":"SAMSUNG","Bits":32,"DataLSB":"0x07073BC4","Repeat":0} # Factory *
+IRsend {"Protocol":"SAMSUNG","Bits":32,"DataLSB":"0x07072DD2","Repeat":0} # Exit
+IRsend {"Protocol":"SAMSUNG","Bits":32,"DataLSB":"0x0707609F","Repeat":0} # Up
+IRsend {"Protocol":"SAMSUNG","Bits":32,"DataLSB":"0x0707619E","Repeat":0} # Down
+IRsend {"Protocol":"SAMSUNG","Bits":32,"DataLSB":"0x0707659A","Repeat":0} # Left
+IRsend {"Protocol":"SAMSUNG","Bits":32,"DataLSB":"0x0707659A","Repeat":0} # Right
+IRsend {"Protocol":"SAMSUNG","Bits":32,"DataLSB":"0x07076897","Repeat":0} # Enter
+IRsend {"Protocol":"SAMSUNG","Bits":32,"DataLSB":"0x070711EE","Repeat":0} # 0
+IRsend {"Protocol":"SAMSUNG","Bits":32,"DataLSB":"0x070704FB","Repeat":0} # 1
+IRsend {"Protocol":"SAMSUNG","Bits":32,"DataLSB":"0x070705FA","Repeat":0} # 2
+IRsend {"Protocol":"SAMSUNG","Bits":32,"DataLSB":"0x070706F9","Repeat":0} # 3
+IRsend {"Protocol":"SAMSUNG","Bits":32,"DataLSB":"0x070708F7","Repeat":0} # 4
+IRsend {"Protocol":"SAMSUNG","Bits":32,"DataLSB":"0x070709F6","Repeat":0} # 5
+IRsend {"Protocol":"SAMSUNG","Bits":32,"DataLSB":"0x07070AF5","Repeat":0} # 6
+IRsend {"Protocol":"SAMSUNG","Bits":32,"DataLSB":"0x07070CF3","Repeat":0} # 7
+IRsend {"Protocol":"SAMSUNG","Bits":32,"DataLSB":"0x07070DF2","Repeat":0} # 8
+IRsend {"Protocol":"SAMSUNG","Bits":32,"DataLSB":"0x07070EF1","Repeat":0} # 9
+IRsend {"Protocol":"SAMSUNG","Bits":32,"DataLSB":"0x07071FE0","Repeat":0} # Info
+IRsend {"Protocol":"SAMSUNG","Bits":32,"DataLSB":"0x070713EC","Repeat":0} # Pre-Ch
+
+# Recieved IR Codes Verbatim Copy
+# MQT: tele/tasmota_C12C0A/RESULT = {"IrReceived":{"Protocol":"SAMSUNG","Bits":32,"Data":"0xE0E040BF","DataLSB":"0x070702FD","Repeat":0}} # Red Button
+# MQT: tele/tasmota_C12C0A/RESULT = {"IrReceived":{"Protocol":"SAMSUNG","Bits":32,"Data":"0xE0E0807F","DataLSB":"0x070701FE","Repeat":0}} # Source
+# MQT: tele/tasmota_C12C0A/RESULT = {"IrReceived":{"Protocol":"SAMSUNG","Bits":32,"Data":"0xE0E058A7","DataLSB":"0x07071AE5","Repeat":0}} # Menu
+# MQT: tele/tasmota_C12C0A/RESULT = {"IrReceived":{"Protocol":"SAMSUNG","Bits":32,"Data":"0xE0E0D22D","DataLSB":"0x07074BB4","Repeat":0}} # Tools
+# MQT: tele/tasmota_C12C0A/RESULT = {"IrReceived":{"Protocol":"SAMSUNG","Bits":32,"Data":"0xE0E0DC23","DataLSB":"0x07073BC4","Repeat":0}} # Factory
+# MQT: tele/tasmota_C12C0A/RESULT = {"IrReceived":{"Protocol":"SAMSUNG","Bits":32,"Data":"0xE0E0B44B","DataLSB":"0x07072DD2","Repeat":0}} # Exit
+# MQT: tele/tasmota_C12C0A/RESULT = {"IrReceived":{"Protocol":"SAMSUNG","Bits":32,"Data":"0xE0E006F9","DataLSB":"0x0707609F","Repeat":0}} # Up
+# MQT: tele/tasmota_C12C0A/RESULT = {"IrReceived":{"Protocol":"SAMSUNG","Bits":32,"Data":"0xE0E08679","DataLSB":"0x0707619E","Repeat":0}} # Down
+# MQT: tele/tasmota_C12C0A/RESULT = {"IrReceived":{"Protocol":"SAMSUNG","Bits":32,"Data":"0xE0E0A659","DataLSB":"0x0707659A","Repeat":0}} # Left
+# MQT: tele/tasmota_C12C0A/RESULT = {"IrReceived":{"Protocol":"SAMSUNG","Bits":32,"Data":"0xE0E046B9","DataLSB":"0x0707629D","Repeat":0}} # Right
+# MQT: tele/tasmota_C12C0A/RESULT = {"IrReceived":{"Protocol":"SAMSUNG","Bits":32,"Data":"0xE0E016E9","DataLSB":"0x07076897","Repeat":0}} # Enter
+# MQT: tele/tasmota_C12C0A/RESULT = {"IrReceived":{"Protocol":"SAMSUNG","Bits":32,"Data":"0xE0E08877","DataLSB":"0x070711EE","Repeat":0}} # 0
+# MQT: tele/tasmota_C12C0A/RESULT = {"IrReceived":{"Protocol":"SAMSUNG","Bits":32,"Data":"0xE0E020DF","DataLSB":"0x070704FB","Repeat":0}} # 1
+# MQT: tele/tasmota_C12C0A/RESULT = {"IrReceived":{"Protocol":"SAMSUNG","Bits":32,"Data":"0xE0E0A05F","DataLSB":"0x070705FA","Repeat":0}} # 2
+# MQT: tele/tasmota_C12C0A/RESULT = {"IrReceived":{"Protocol":"SAMSUNG","Bits":32,"Data":"0xE0E0609F","DataLSB":"0x070706F9","Repeat":0}} # 3
+# MQT: tele/tasmota_C12C0A/RESULT = {"IrReceived":{"Protocol":"SAMSUNG","Bits":32,"Data":"0xE0E010EF","DataLSB":"0x070708F7","Repeat":0}} # 4
+# MQT: tele/tasmota_C12C0A/RESULT = {"IrReceived":{"Protocol":"SAMSUNG","Bits":32,"Data":"0xE0E0906F","DataLSB":"0x070709F6","Repeat":0}} # 5 
+# MQT: tele/tasmota_C12C0A/RESULT = {"IrReceived":{"Protocol":"SAMSUNG","Bits":32,"Data":"0xE0E050AF","DataLSB":"0x07070AF5","Repeat":0}} # 6
+# MQT: tele/tasmota_C12C0A/RESULT = {"IrReceived":{"Protocol":"SAMSUNG","Bits":32,"Data":"0xE0E030CF","DataLSB":"0x07070CF3","Repeat":0}} # 7
+# MQT: tele/tasmota_C12C0A/RESULT = {"IrReceived":{"Protocol":"SAMSUNG","Bits":32,"Data":"0xE0E0B04F","DataLSB":"0x07070DF2","Repeat":0}} # 8
+# MQT: tele/tasmota_C12C0A/RESULT = {"IrReceived":{"Protocol":"SAMSUNG","Bits":32,"Data":"0xE0E0708F","DataLSB":"0x07070EF1","Repeat":0}} # 9 
+# MQT: tele/tasmota_C12C0A/RESULT = {"IrReceived":{"Protocol":"SAMSUNG","Bits":32,"Data":"0xE0E0F807","DataLSB":"0x07071FE0","Repeat":0}} # Info
+# MQT: tele/tasmota_C12C0A/RESULT = {"IrReceived":{"Protocol":"SAMSUNG","Bits":32,"Data":"0xE0E0C837","DataLSB":"0x070713EC","Repeat":0}} # Pre-Ch
